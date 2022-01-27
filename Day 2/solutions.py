@@ -9,7 +9,11 @@ if  __name__ == "__main__":
         q = list(map(int, input().split()))
 
 
+<<<<<<< HEAD
         #It will push the element into stack
+=======
+        #It will push the element
+>>>>>>> ceef6e86fe79d8e5e666f6c140ab8bdebba8cd46
         if q[0] == 1:
             if stack:
                 stack.append(max(stack[-1], q[1]))
